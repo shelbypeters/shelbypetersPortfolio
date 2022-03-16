@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>What should we do?</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Activity Generator</h1>
+        <div class="activity-div">
+            <form action="/random" method="get">
+                <input type="submit" value="Random" class="btn btn-random">
+                <p>Click the button to generate a random activity</p>
+            </form>
+        </div>
+        <div class="activity-div">
+            <form action="/selected" method="get">
+                <input type="radio" name="type" value="education">Education
+                <input type="radio" name="type" value="recreational">Recreational
+                <input type="radio" name="type" value="social">Social
+                <input type="radio" name="type" value="diy">DIY
+                <input type="submit" value="Go!" class="btn btn-random">
+                <p>Select type of Activity</p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<div class="card_container">
+
+    <div class="card">
+
+        <h1 class="header3">
+            <%= movie.title %> 
+        </h1>
+
+        <p class="plot">
+            <%= movie.overview || "No plot given" %> 
+        </p>
+
+        <p> Rating: <%= movie.vote_average %> out of 10 stars
+        </p>
+
+        <% let poster = movie.poster_path ? `https://image.tmdb.org/t/p/w200/${movie.poster_path}` : false %> 
+
+        <img src=<%= poster %> alt= <%= movie.title %> >
+
+    </div>
+
+</div>

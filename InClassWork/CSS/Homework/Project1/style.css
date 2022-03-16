@@ -1,0 +1,126 @@
+h1 {
+    border: solid red 5px;
+}
+
+.cat {
+    background-color: black;
+}
+
+#dog {
+    color: white;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+
+#mouse {
+    color: yellow;
+    border: blue dashed 5px;
+    width: 200px;
+    padding-right: 100px;
+}
+
+#bird {
+    color: lightgreen;
+    border: green ridge 5px;
+    width: 50vw;
+    text-align: right;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 0;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+#horse {
+    color: orange;
+    margin: auto;
+    padding: 100px 0 0 100px;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+}
+
+div {
+    border: solid;
+    width: 25%;
+    height: 300px;
+    margin: auto;
+}
+
+p {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p {
+    color: green;
+}
+
+p.changeFont {
+    color: green;
+}
+
+#p3 {
+    color: red;
+}
+
+.H {
+    font: bold 36px;
+}
+
+#one {
+    background: green;
+    width: 33%;
+    text-align: left;
+}
+
+#two {
+    background: yellow;
+    width: 33%;
+    text-align: center;
+    margin: auto;
+}
+
+#three {
+    background: red;
+    width: 33%;
+    text-align: right;
+    float: right;
+}
+
+.div {
+    border: solid red;
+}
+
+#img1 {
+    background: green;
+    width: 33%;
+    text-align: left;
+    margin: 0 0 0 0;
+    padding: 25px 25px 10px 25px;
+}
+
+#img2 {
+    background: yellow;
+    width: 33%;
+    text-align: center;
+    margin: auto;
+    padding: 25px 25px 10px 25px;
+}
+
+#img3 {
+    float: right;
+    background: red;
+    width: 33%;
+    text-align: right;
+    padding: 25px 25px 10px 25px;
+}
+

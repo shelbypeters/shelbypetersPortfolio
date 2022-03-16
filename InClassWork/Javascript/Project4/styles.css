@@ -1,0 +1,24 @@
+body {
+    background-image: url('assets/background1.jpg');
+}
+
+.container {
+    position: fixed;
+    text-align: center;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 54px;
+    width: 900px;
+}
+

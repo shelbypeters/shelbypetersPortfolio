@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitCoin Price App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background: rgb(149, 216, 245)">
+
+<div class="container">
+
+<h1 style="padding-bottom: 20px; padding-top: 20px; text-align: center">BitCoin Price App</h1>
+
+    <form style="text-align: center"action="/getCoin" method="get">
+        <div>
+            
+            <input type="radio" id="usd" name="country" value="USD" checked>
+            </label for="usd">USD</label>
+            <input type="radio" id="gbp" name="country" value="GBP">
+            </label for="gbp">GBP</label>
+            <input type="radio" id="eur" name="country" value="EUR">
+            </label for="eur">EUR</label>
+
+        </div>
+        
+        <div style="padding-top: 20px; padding-bottom: 40px;">
+            <button class="btn btn-lg btn-outline-light" style="color:white; background-color: rgb(1, 1, 102); border-radius: 15px; height: 60px; width: 150px" type="submit">Get Price</button>
+        </div>
+
+        <h1 style="padding-bottom: 10px">This is the current price:</h1>
+    
+        <h1 style="font-size: 50px; text-shadow: 1px 1px white"> 
+            <%- price.symbol %> <%= price.rate %> 
+        </h1>
+
+    </form>
+    
+<footer style="text-align: center; padding-top: 40px;">
+    <a href="https://old.coindesk.com/price/bitcoin">Powered by CoinDesk</a>
+</footer>
+
+</div>
+
+</body>
+</html>
+

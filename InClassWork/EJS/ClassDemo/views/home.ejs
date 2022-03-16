@@ -1,0 +1,33 @@
+<%- include('partials/header.ejs', {title: "- Home", body_id: "home", nav_bg: "light"}) %> 
+
+<div class="container">
+
+    <div class="row">
+        <div class="col">
+            <h1 class="text-center mt-5 pt-5">SP Portfolio</h1>
+        </div>
+    </div>
+<!-- End Row 1-->
+
+    <div class="row">
+        <% data.forEach(element => { %> 
+            <div class="col">
+                <div class="img_container">
+                    <img src=<%= element.src %>  alt=<%= element.alt %> >
+                </div>
+
+                <a href=<%= element.href %> target='_blank'>
+                    <h2 class="text-center mt-3 mb-5"><%= element.content %> </h2>
+                </a>
+
+            </div>
+        <% }); %> 
+    </div>
+
+<!-- End Row 2-->
+
+</div>   
+
+
+<%- include('partials/footer.ejs') %> 
+

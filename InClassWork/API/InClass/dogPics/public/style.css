@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+  }
+  
+  img {
+    height: 500px;
+    box-shadow: 3px 3px 2px black;
+  }
+  
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4caf50;
+    font-family: Oswald;
+    text-shadow: 2px 2px 3px black;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #btn {
+    margin: 20px;
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 2px 2px 2px black;
+  }
+  
+  #error_page {
+    background: tan url("https://http.cat/404") top no-repeat;
+    background-size: contain;
+    height: 100vh;
+  }
+  
+  

@@ -1,0 +1,22 @@
+<%- include('partials/header.ejs') %> 
+
+
+    <h1>Home</h1>
+
+    <% let person = "Shelby" %> 
+
+    <h1><%= person %> </h1>
+
+    <% let people = ['kevin', 'shelby'] %> 
+
+    <% people.forEach(function(doggy){ %> 
+            <h1><%= doggy %> </h1> 
+    <% }) %> 
+
+    <% for(let i = 0; i < people.length; i++){ %> 
+    <h1> <%= people[i] %> </h1>
+    <% } %> 
+
+
+<%- include('partials/footer.ejs') %> 
+

@@ -1,0 +1,24 @@
+<%- include("partials/header") %> 
+
+<div class="site-wrapper">
+    <div class="site-wrapper-inner">
+      <div class="cover-container">
+        <div class="masthead clearfix">
+          <div class="inner">
+            <h3 class="masthead-brand">The Quotes</h3>
+          </div>
+        </div>
+  
+        <div class="inner cover">
+          <h1 class="cover-heading"><%= text %></h1>
+          <p class="lead"><%= author %> </p>
+            <form action="/quote" method="get">
+                <button type="button" class="btn btn-lg btn-secondary btn-info">Get Another Quote</button>
+            </form>
+        
+        </div>
+        </div>
+    </div>  
+</div>  
+
+<%- include("partials/footer") %> 

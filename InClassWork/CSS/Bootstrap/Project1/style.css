@@ -1,0 +1,28 @@
+html, body {
+    background: url('assets/background.png') center center no-repeat;
+    color: white;
+    height: 100%;
+}
+
+#background {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+#message {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+#message h1 {
+    font-size: 60px;
+}
+
+#register {
+    margin-left: 5px;
+}

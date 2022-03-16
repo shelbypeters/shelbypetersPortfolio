@@ -1,0 +1,13 @@
+SELECT
+     country_name,
+     region_id
+ FROM countries
+ WHERE region_id < 3;
+
+SELECT
+     country_name,
+     region_id
+ FROM countries
+ WHERE region_id = 3
+     or
+     region_id = 5;

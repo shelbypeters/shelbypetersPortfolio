@@ -1,0 +1,12 @@
+/* div {
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    border: solid 1px black;
+    background: grey;
+    font-size: 36px;
+} */
+
+form, h1 {
+    padding-left: 50px;
+}
